@@ -6,17 +6,38 @@
 
 #cvSection("Skills")
 
+#let cvSkill(type: "Type", info: "Info") = {
+  let skillTypeStyle(str) = {
+    align(left, text(size: 10pt, weight: "bold", str))
+  }
+  let skillInfoStyle(str) = {
+    text(str)
+  }
+
+  table(
+    columns: (16%, 1fr),
+    inset: 0pt,
+    column-gutter: 10pt,
+    stroke: none,
+    skillTypeStyle(type), skillInfoStyle(info),
+  )
+  v(-6pt)
+}
+
 #cvSkill(
   type: [Languages],
-  info: [English, Chinese],
+  info: [English | Chinese],
 )
 
 #cvSkill(
-  type: [Tech Stack],
-  info: [RDMA, UCX, WPF ],
+  type: [Frameworks],
+  info: [RDMA | UCX | WPF | ASP.NET | Blazor | JuMP | Tidyverse],
 )
 
+
+
 #cvSkill(
-  type: [Programming Language],
-  info: [Rust, C, C++, Java, Julia, R, Python, Matlab, Latex, Typst],
+  type: [Programming],
+  info: [Rust | C | C++ | C\# | Java | Julia | R | Python | Matlab | Latex | Typst],
 )
+

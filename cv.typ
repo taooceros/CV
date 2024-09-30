@@ -16,8 +16,8 @@
 )
 #importModules((
   "education",
-  "open-source",
   "research",
+  "open-source",
   "award",
   "community",
   // "publications",

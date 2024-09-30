@@ -15,7 +15,7 @@
   description: [
     - Designed and Implemented a high performance network stack via _UCX_ and _RDMA_.
     - Utilize _X-GVMI_ in Bluefield-3 NIC to efficiently offload the control logic of container network stacks onto DPU without data copying.
-    - Optimized the offloading latency for more than 50% compared to full-copy mode.
+    -  Optimized the offloading bandwidth by 20% and latency for more than 50% compared to full-copy mode.
   ]
 )
 
