@@ -5,7 +5,7 @@
 #let cvHonor = cvHonor.with(metadata: metadata)
 
 
-#cvSection("Award")
+#cvSection("Awards")
 
 #cvHonor(
   date: [2024],
