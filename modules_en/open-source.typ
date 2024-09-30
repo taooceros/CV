@@ -14,6 +14,7 @@
   date: [2020 - Present],
   location: [San Francisco, CA],
   description: [
+    - Flow Launcher is a game changer for Windows users, offering a powerful launchpad for apps, files, and websites, all accessible with keyboard shortcuts.
     - Awarded more than 7,000 GitHub stars and received more than 50,000 downloads per release.
     - Managed the Resource Localization Process with _Crowdin_.
     - Wrote Plugin Development Document for plugins written in .NET family (C\#, F\#, VB.NET, etc.).    

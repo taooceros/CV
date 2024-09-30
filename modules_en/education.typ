@@ -8,7 +8,7 @@
 #cvSection("Education")
 
 #cvEntry(
-  title: [*_B.S._* in Computer Science, Math and Data Science],
+  title: [*_B.S._* in Computer Science (Honors), Math and Data Science, _Comprehensive Honors_],
   society: [University of Wisconsin-Madison],
   date: [2021-2024],
   location: [Madison, WI],
@@ -16,6 +16,6 @@
   description: [
     - *Thesis*: Usage-Fairness in Delegation-Styled Locks
     - *GPA*: 3.94/4.0
-    - *Comprehensive Honors* in Computer Science
+    - *Relevent Courses*: Operating System, Computer Network, Database System, Algorithm (Honors), Quantum Algorithm, Machine Learning, Linear/Non-Linear Optimization, Probability Theory (Honors), Stochastic Process (Honors), Analysis (Honors), Modern Algebra I & II, Linear Algebra (Honors)
   ],
 )
