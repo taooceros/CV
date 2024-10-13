@@ -28,14 +28,14 @@
     - Adopt usage-fairness-oriented guarantee in Delegation-Styled Lock through serialized scheduling policies.
     - Mitigated Scheduler Subversion with a priority-based scheduling algorithm for combiner threads.
     - Rectified unfair lock usage scenarios under existing delegation-styled locks: Flat-Combining, CC/DSM-Synch, and RCL.
-    - Supported by Hilldale Research Fellowship (2024).
+    - Supported by _Hilldale Research Fellowship_ (2024).
   ],
 )
 
 #cvEntry(
   title: [Advisor: Xiaojin Zhu, Yudong Chen, Qiaomin Xie],
   society: [Theory of Reinforcement Learning Seminar],
-  date: [Jan 2023 - Present],
+  date: [Jun 2022 - Sep 2022],
   location: [University of Wisconsin-Madison],
   description: [
     - Directed Reading of _Reinforcement Learning: Theory and Algorithm_.
