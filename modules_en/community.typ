@@ -19,7 +19,7 @@
 
 #cvEntry(
   title: [Combinatorics (Math 475)],
-  society: [Grader],
+  society: [Math Grader],
   date: [Sep 2023 - Dec 2023],
   location: [University of Wisconsin-Madison],
   description: [
@@ -29,11 +29,10 @@
 
 #cvEntry(
   title: [Discrete Math (Math 240)],
-  society: [Grader],
+  society: [Math Grader],
   date: [Jan 2023 - May 2023],
   location: [University of Wisconsin-Madison],
   description: [
-    - Graded weekly homework assignments and exams.
   ],
 )
 

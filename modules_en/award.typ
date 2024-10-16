@@ -15,6 +15,13 @@
 
 #cvHonor(
   date: [2023],
-  title: [David Dewitt Undergraduate Scholarship: \$8000],
+  title: [David Dewitt Undergraduate Scholarship (4 recipents/year): \$8000],
   issuer: [University of Wisconsin Madison],
 )
+
+
+// #cvHonor(
+//   date: [2021 Jan - 2023 Jun],
+//   title: [Dean's List],
+//   issuer: [University of Wisconsin Madison],
+// )

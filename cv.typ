@@ -15,10 +15,11 @@
 )
 #importModules((
   "education",
+  "publications",
   "research",
   "open-source",
   "award",
   "community",
-  // "publications",
+  "projects",
   "skills",
 ))

@@ -9,14 +9,14 @@
 
 #cvEntry(
   title: [Core Member],
-  society: link("https://flowlauncher.com")[Flow Launcher],
+  society: link("https://flowlauncher.com")[Flow Launcher #text(weight: "light")[(a powerful launchpad for apps, files, and websites with keyboard shortcuts for windows)]],
   logo: link("https://flowlauncher.com", image("../src/logos/flowlauncher.png")),
   date: [2020 - Present],
   location: [Global],
   description: [
-    - Flow Launcher offers a powerful launchpad for apps, files, and websites with keyboard shortcuts for windows users.
+    - Collaborated with a team of \~10 active members and many other contributors across countries to develop a Windows application.
     - Awarded more than 7,000 GitHub stars and received more than 50,000 downloads per release.
-    - Created and Managed the CI/CD Pipeline of Internationalization with _Crowdin_. More than 20 Languages are supported.
+    - Created and managed the CI/CD Pipeline of Internationalization with _Crowdin_ (supported more than 20 languages).
     - Wrote Plugin Development Document for plugins written in .NET family (C\#, F\#, VB.NET, etc.).    
   ],
   tags: ([WPF], [C\#], [Desktop Development]),

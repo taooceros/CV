@@ -25,8 +25,8 @@
 }
 
 #cvSkill(
-  type: [Languages],
-  info: [English | Chinese],
+  type: [Programming],
+  info: [Rust | C | C++ | C\# | Java | Julia | R | Python | Matlab | Latex | Typst],
 )
 
 #cvSkill(
@@ -34,10 +34,7 @@
   info: [RDMA | UCX | WPF | ASP.NET | Blazor | JuMP | Tidyverse],
 )
 
-
-
 #cvSkill(
-  type: [Programming],
-  info: [Rust | C | C++ | C\# | Java | Julia | R | Python | Matlab | Latex | Typst],
+  type: [Languages],
+  info: [English | Chinese],
 )
-
