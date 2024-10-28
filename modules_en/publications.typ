@@ -4,14 +4,15 @@
 #let cvSection = cvSection.with(metadata: metadata)
 
 
-#cvSection("Publications (In submission)")
+#cvSection("Publications")
+
+#show "Hongtao Zhang": set text(weight: "bold")
 
 #cvPublication(
-  bib: bibliography("../src/publications.bib"),
+  bib: bibliography("../src/publications.bib", style: "association-for-computing-machinery"),
   keyList: (
     "smith2020",
     "jones2021",
     "wilson2022",
   ),
-  refStyle: "apa",
 )
