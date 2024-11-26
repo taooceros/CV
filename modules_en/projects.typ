@@ -27,25 +27,25 @@
   tags: ([Quantum Information Theory], [Probability]),
 )
 
-#cvEntry(
-    title: [Developer], 
-    society: [VMAWalk],
-    date: [Sep 2020 - Jan 2021],
-    description: [
-        - Co-developed a web application that allows users to create and share comments on teachers and courses in Vanke Meisha Academy.
-        - Developed backend with ASP.NET Core, and frontend with layui and jQuery.
-    ],
-    tags: ([Javascript], [C\#], [Full Stack Development]),
-)
+// #cvEntry(
+//     title: [Developer], 
+//     society: [VMAWalk],
+//     date: [Sep 2020 - Jan 2021],
+//     description: [
+//         - Co-developed a web application that allows users to create and share comments on teachers and courses in Vanke Meisha Academy.
+//         - Developed backend with ASP.NET Core, and frontend with layui and jQuery.
+//     ],
+//     tags: ([Javascript], [C\#], [Full Stack Development]),
+// )
 
 
-#cvEntry(
-  title: [Operating System Class Project],
-  society: [Distributed File System],
-  date: [Sep 2023 - Present],
-  location: [University of Wisconsin-Madison],
-  description: [
-    - Designed and implemented a distributed file system that allows user to perform file operations on remote server via RPC.
-  ],
-  tags: ([C], [Operating Systems]),
-)
+// #cvEntry(
+//   title: [Operating System Class Project],
+//   society: [Distributed File System],
+//   date: [Sep 2023 - Present],
+//   location: [University of Wisconsin-Madison],
+//   description: [
+//     - Designed and implemented a distributed file system that allows user to perform file operations on remote server via RPC.
+//   ],
+//   tags: ([C], [Operating Systems]),
+// )

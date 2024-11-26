@@ -9,6 +9,8 @@
   }
 }
 
+#set par(leading: 0.8em)
+
 #show: cv.with(
   metadata, 
   profilePhoto: image("./src/signature.png")

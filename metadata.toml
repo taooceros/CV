@@ -66,7 +66,7 @@ language = "en"
 # i.e. [[lang.ru]]
 # each section must contains the following fields
 [lang.en]
-    header_quote = "Research Interest: Operating Systems, Concurrency Syncronization, and Network Infrastructure"
+    header_quote = "Research Interest: Operating Systems, Concurrency Syncronization, Programmable Network"
     cv_footer = "Curriculum Vitae"
     letter_footer = "Cover letter"
 
