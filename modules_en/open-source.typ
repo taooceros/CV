@@ -11,7 +11,7 @@
   title: [Core Member],
   society: link("https://flowlauncher.com")[Flow Launcher #text(weight: "light")[(a powerful launchpad for apps, files, and websites with keyboard shortcuts for windows)]],
   logo: link("https://flowlauncher.com", image("../src/logos/flowlauncher.png")),
-  date: [2020 - Present],
+  date: [Oct 2020 - Present],
   location: [Global],
   description: [
     - Awarded more than *8,000 GitHub stars* and received more than *50,000 downloads* per release.

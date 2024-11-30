@@ -18,11 +18,12 @@
 
 #cvEntry(
   title: [Advisor: Dieter van Melkebeek],
-  society: [Quantum Random Walks],
+  society: [Multidimensional Quantum Walks],
   date: [Sep 2023 - Present],
   location: [University of Wisconsin-Madison],
   description: [
-    - Explored the quantum random walks on the line and the cycle, and their connections to quantum algorithms.
+    - Explored the Multidimensional Quantum Walks and their exponential speedups toward solving Welded Trees problem.
+    - Connected the Quantum Random Walk to theory of classical stochastics random walk.
   ],
   tags: ([Quantum Information Theory], [Probability]),
 )

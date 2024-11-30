@@ -10,7 +10,7 @@
 #cvEntry(
   title: [*_B.S._* in Computer Science (Honors), Math and Data Science, _Comprehensive Honors_],
   society: [University of Wisconsin-Madison],
-  date: [2021-2024],
+  date: [Jan 2021 - Dec 2024],
   location: [Madison, WI],
   logo: link("https://www.wisc.edu/", image("../src/logos/uw-madison.png")),
   description: [

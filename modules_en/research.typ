@@ -44,7 +44,7 @@
   description: [
     #v(-5pt)
     === Usage Fair Delegation-Styled Locks
-    - Developed *high performance* delegation-styled locks that provides *usage-fairness* guarantees while maintaining high throughput.
+    - Develope *high performance* delegation-styled locks that provides *usage-fairness* guarantees .
     - Revised variants of delegation-styled locks (_Flat-Combining_, _CCSynch_, _DSM-Synch_) with *Banning* strategy that guarantees usage fairness while maintaining high throughput (2x larger throughput compared to the state-of-art usage fair lock _U-SCL_).
     - Designed _FC-PQ_, a *work-conserving* delegation styled lock that guarantees usage fairness based on _Channel_ and a serialized scheduler.
     - Mitigated *Scheduler Subversion* with a priority-based scheduling algorithm for combiner threads.

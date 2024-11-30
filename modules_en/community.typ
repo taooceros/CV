@@ -43,6 +43,6 @@
   location: [University of Wisconsin-Madison],
   description: [
     - Hosted regular office hours for a class of more than 300 students.
-    - Explained students the mathematical basis behind AI Algorithms, and helped students to implement various AI algorithms (PCA, CNN, Q-Learning, etc.) in Python.
+    - Illustrated students mathematical basis behind AI Algorithms, and helped students to implement various AI algorithms (PCA, CNN, Q-Learning, etc.) in Python.
   ],
 )
