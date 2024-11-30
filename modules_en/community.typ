@@ -33,6 +33,7 @@
   date: [Jan 2023 - May 2023],
   location: [University of Wisconsin-Madison],
   description: [
+    - Graded weekly homeworks assignments and exams.
   ],
 )
 
