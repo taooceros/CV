@@ -1,5 +1,5 @@
 // Imports
-#import "@preview/brilliant-cv:2.0.3": cvSection, cvEntry
+#import "@preview/brilliant-cv:2.0.7": cvSection, cvEntry
 #let metadata = toml("../metadata.toml")
 #let cvSection = cvSection.with(metadata: metadata)
 #let cvEntry = cvEntry.with(metadata: metadata)
@@ -16,24 +16,34 @@
   location: [University of Washington],
   logo: link("https://syslab.cs.washington.edu/", image("../src/logos/uw.png")),
   description: [
-    #v(-5pt)
-    === Container Network Offloading
+    *Asynchronous Native Accelerator Abstraction* #h(1fr) _Jan 2025 - Present_
+
+    - Unifying asynchronous programming models for diverse hardware accelerators (e.g., SmartNICs, GPUs, Intel On-Chip Accelerators) to enable *composable* and *unified* interface for accelerators accross diverse vendors.
+    - *Rust*-binding for *Doca* library to enable safe and efficient programming for NVIDIA BlueField and ConnectX networking devices.
+    - *stdexec (_c++26_)*-binding for *Doca* library and *Intel Accelerators* to enable composable asynchronous programming for networking accelerators.
+
+    *High throughput Fine Grained Interconnect and communication* #h(1fr) _Jan 2025 - Present_
+    - Exploiting hardware limits of *RDMA* cache-line sized message rate (how to get 340Mpps in Connect-X7).
+    - Charaterized the throughput (message rate) bottlenecks of fine-grained RDMA communication.
+    - Integration with existing high performance communication libraries (e.g., _UCX_, _OpenShmem_) to improve fine-grained communication performance.
+
+
+    // - Crafting a next generation hardware accelerator abstraction among diverse hardware accelerators.
+    // - Developed a system to orchestrate multiple NIC accelerators (e.g. AES-GCM, IPSec) for *multi-tenant* cross-layer offloading.
+    // - Implemented a _Rust_ Binding for _DOCA_, a library for application development for NVIDIA BlueField and ConnectX networking devices.
+    // - Charaterized the _AES-GCM_ accelerator engine within Bluefield-3 NIC under *multi-tenant* and concurrent environments.
+
+    *Container Network Offloading* #h(1fr) _May 2024 - Dec 2024_
 
     - *Transparently* offloading of container network stacks without sacrificing performance to *DPUs* (Data Processing Units).
     - Implemented a high performance network stack via One-Sided *RDMA Write* with _UCX_.
-    - Utilized _X-GVMI_ in Bluefield-3 NIC to efficiently offload the *control logic* of container network stacks onto DPU *without data copying*.
-    - Implemented a *RDMA Bridge* between _UCX_ and _ibverbs_ for transparent usage of _X-GVMI_ by _RDMA_ applications.
-    - Offloaded _Quark_ (a user-space container network stack) with *Zero-Copy* data path (20% throughput and 50% latency reduction).
-
-    === NIC Accelerator Orchestrator
-
-    - Crafting a next generation hardware accelerator abstraction among diverse hardware accelerators.
-    - Developed a system to orchestrate multiple NIC accelerators (e.g. AES-GCM, IPSec) for *multi-tenant* cross-layer offloading.
-    - Implemented a _Rust_ Binding for _DOCA_, a library for application development for NVIDIA BlueField and ConnectX networking devices.
-    - Charaterized the _AES-GCM_ accelerator engine within Bluefield-3 NIC under *multi-tenant* and concurrent environments.
-
+    - Leveraged _X-GVMI_ UMR in Bluefield-3 NIC to offload the *control logic* of container network stacks onto DPU with zero-copy support.
+    - Implemented a *Bridge* between _UCX_ and _ibverbs_ for transparent usage of _X-GVMI_ by _RDMA_ applications.
+    - Offloaded _Quark_ (a user-space secure container network stack) with *Zero-Copy* data path (20% throughput and 50% latency reduction).
   ]
 )
+
+#pagebreak()
 
 #cvEntry(
   title: [Advisor: Remzi Arpaci-Dusseau, Yuvraj Patel],

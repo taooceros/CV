@@ -1,5 +1,5 @@
  // Imports   
-#import "@preview/brilliant-cv:2.0.2": cv
+#import "@preview/brilliant-cv:2.0.7": cv
 #let metadata = toml("./metadata.toml")
 #let importModules(modules, lang: metadata.language) = {
   for module in modules {
@@ -9,7 +9,6 @@
   }
 }
 
-#set par(leading: 0.8em)
 
 #show: cv.with(
   metadata, 

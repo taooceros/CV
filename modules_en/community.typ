@@ -1,5 +1,5 @@
 // Imports
-#import "@preview/brilliant-cv:2.0.2": cvSection, cvEntry
+#import "@preview/brilliant-cv:2.0.7": cvSection, cvEntry
 #let metadata = toml("../metadata.toml")
 #let cvSection = cvSection.with(metadata: metadata)
 #let cvEntry = cvEntry.with(metadata: metadata)
@@ -13,7 +13,7 @@
   date: [Sep 2023 - Present],
   location: [University of Wisconsin-Madison],
   description: [
-    - Assumed a role within the Housing Advisor team, offering academic support to (mostly first year) residents' mathematical needs.
+    - Tutored (mostly first year) residents' mathematical needs.
   ],
 )
 

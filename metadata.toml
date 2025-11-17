@@ -24,6 +24,9 @@ language = "en"
 
         # Decide if you want to display profile photo or not
         display_profile_photo = true
+    [layout.footer]
+        # Decide if you want to display page counter or not
+        display_page_counter = true
 
     [layout.entry]
         # Decide if you want to put your company in bold or your position in bold
@@ -34,7 +37,7 @@ language = "en"
 
 [inject]
     # Decide if you want to inject AI prompt or not
-    inject_ai_prompt = false
+    inject_ai_prompt = true
 
     # Decide if you want to inject keywords or not
     inject_keywords = true
@@ -66,7 +69,7 @@ language = "en"
 # i.e. [[lang.ru]]
 # each section must contains the following fields
 [lang.en]
-    header_quote = "Research Interest: Operating Systems, Concurrency Syncronization, Programmable Network"
+    header_quote =  ""# "Research Interest: Operating Systems, Concurrency Syncronization, Programmable Network"
     cv_footer = "Curriculum Vitae"
     letter_footer = "Cover letter"
 

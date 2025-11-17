@@ -1,4 +1,4 @@
-#import "@preview/brilliant-cv:2.0.2": cvSection, cvEntry, hBar
+#import "@preview/brilliant-cv:2.0.7": cvSection, cvEntry, hBar
 #let metadata = toml("../metadata.toml")
 #let cvSection = cvSection.with(metadata: metadata)
 #let cvEntry = cvEntry.with(metadata: metadata)
@@ -11,7 +11,7 @@
   date: [Jun 2022 - Sep 2022],
   location: [University of Wisconsin-Madison],
   description: [
-    - Directed reading of _Reinforcement Learning: Theory and Algorithm_.
+    - Reading Seminar of _Reinforcement Learning: Theory and Algorithm_.
     - Led chapter about theory behind Imitation Learning: algorithms to learn the behavior of expert.
   ],
 )
