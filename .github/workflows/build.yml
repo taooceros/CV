@@ -1,48 +1,30 @@
 name: Build and Release CV
 
 on:
-  push:
-    branches:
-      - main # or your default branch
+  workflow_dispatch:
 
 jobs:
   build_and_release:
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-    - name: Set up Typst
-      uses: typst-community/setup-typst@v4
-      with:
-        typst-version: 0.14.0 # Or your preferred Typst version
+      - name: Set up Typst
+        uses: typst-community/setup-typst@v4
+        with:
+          typst-version: 0.14
 
-    - name: Install Font Awesome
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y fonts-font-awesome
+      - name: Compile CV and Letter
+        run: |
+          typst compile cv.typ cv.pdf
+          typst compile letter.typ letter.pdf
 
-    - name: Compile CV
-      run: typst compile cv.typ cv.pdf # Replace cv.typ with your main Typst file
-
-    - name: Create Release
-      id: create_release
-      uses: actions/create-release@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        tag_name: cv-release-${{ github.run_number }}
-        release_name: CV Release ${{ github.run_number }}
-        draft: false
-        prerelease: false
-
-    - name: Upload Release Asset
-      uses: actions/upload-release-asset@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      with:
-        upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: ./cv.pdf
-        asset_name: cv.pdf
-        asset_content_type: application/pdf
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            cv.pdf
+            letter.pdf
