@@ -22,12 +22,10 @@ jobs:
         with:
           typst-version: 0.14
 
-      - name: Install fonts (Font Awesome, Source Sans Pro, Roboto)
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y fonts-font-awesome fonts-source-sans-pro fonts-roboto
-          # Update font cache so Typst can find the newly installed fonts
-          fc-cache -f -v
+      - uses: fontist/setup-fontist@v2
+      - run: fontist install "Source Sans Pro"
+      - run: fontist install "Source Sans 3"
+      - run: fontist install "Font Awesome 7 Free"
 
       - name: Compile CV and Letter
         run: |
