@@ -25,7 +25,7 @@ jobs:
       - uses: fontist/setup-fontist@v2
       - run: fontist install "Source Sans Pro"
       - run: fontist install "Source Sans 3"
-      - run: fontist install "Font Awesome 7 Free"
+      - run: fontist install "Font Awesome"
 
       - name: Compile CV and Letter
         run: |
